@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background-color: #222;
+    max-width: 1860px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    line-height: 100%;
+    color: #f1f1f1;
+}
+a {
+    text-decoration: none;  
+    color: #f1f1f1;
+}
+.block_one {
+    width: 1160px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.header_menu {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.logo_image {
+    width: 60px;
+    height: 39px;
+    flex-shrink: 0;
+}
+.nav {
+    display: flex;
+    gap: 40px;
+    position: sticky;
+    z-index: 1;
+}
+.nav_item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%; 
+    letter-spacing: -0.14px;
+}
+.header_button {
+    display: inline-flex;
+    padding: 15px 35px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 65px;
+    background: #F1F1F1;
+    position: sticky;
+    z-index: 1;
+}
+.button {
+    color: #151515;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%; 
+}
+.about {
+    margin-top: 140px;
+}
+.about_t {
+    position: relative;
+    z-index: 1;
+}
+.about_text {
+    display: flex;
+    width: 1159px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+.title {
+    font-size: 80px;
+    font-weight: 600;
+    line-height: normal;
+    width: 1027px;
+}
+.subtitle_s {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #FF4C0D;
+}
+.button_color {
+    display: inline-flex;
+    align-items: flex-start;
+    border-radius: 108px;
+    border: 3px solid #F1F1F1;
+    margin-top: 70px;
+}
+.white {
+    display: flex;
+    padding: 15px 35px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 65px;
+    background: #F1F1F1;
+}
+.black {
+    display: flex;
+    padding: 15px 35px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 65px;
+}
+.button_black {
+    color: #F1F1F1;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+}
+.bike {
+    position: relative;
+}
+.bike_image {
+    position: absolute;
+    top: -739px;
+    right: -103px;
+}
+.info {
+    margin-top: 140px;
+}
+.subtitle_l {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 110%;
+    width: 870px;
+}
+.char {
+    display: flex;
+    margin: 50px 0 20px;
+}
+.char_box {
+    display: flex;
+    width: 360px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+.char_box_2 {
+    opacity: 0.4;
+}
+.char_box_3 {
+    opacity: 0.4;
+}
+.subtitle_xs {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%;
+}
+.underline {
+    height: 3px;
+    align-self: stretch;
+    background: #FF4C0D;
+}
+.underline_grey {
+    height: 3px;
+    align-self: stretch;
+    background: #F1F1F1;
+}
+.underline_between {
+    width: 40px;
+    height: 3px;
+    flex-shrink: 0;
+    opacity: 0.4;
+    background: #F1F1F1;
+    margin-top: 39px;
+}
+p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.14px;
+}
+.photos {
+    position: relative;
+}
+.photo_1{
+    position: sticky;
+    z-index: 1;
+}
+.photo_2 {
+    border-radius: 15px;
+    position: absolute;
+    right: 0;
+}
+.line {
+    position: absolute;
+    right: -145px;
+    bottom: -115px;
+}
+.ellips_4 {
+    width: 859.464px;
+    height: 863.82px;
+    transform: rotate(90deg);
+    flex-shrink: 0;
+    border-radius: 863.82px;
+    opacity: 0.5;
+    background: linear-gradient(120deg, #FC501F 12.77%, rgba(252, 80, 31, 0.00) 59.51%);
+    filter: blur(140px);
+    position: absolute;
+    left: 0;
+    top: 800px;
+}
+.info_text {
+    position: relative;
+}
+.ellips_1{
+    width: 859.464px;
+    height: 863.82px;
+    transform: rotate(-90deg);
+    flex-shrink: 0;
+    border-radius: 863.82px;
+    opacity: 0.2;
+    background: #FC7C1F;
+    filter: blur(140px);
+    position: absolute;
+    right: -320px;
+    top: -313px;
+}
+.ellips_2 {
+    width: 859.464px;
+    height: 863.82px;
+    transform: rotate(-90deg);
+    flex-shrink: 0;
+    border-radius: 863.82px;
+    opacity: 0.5;
+    background: #FC501F;
+    filter: blur(140px);
+    position: absolute;
+    right: -528px;
+    top: -580px;
+}
+.ellips_3 {
+    width: 447px;
+    height: 450px;
+    transform: rotate(-90deg);
+    flex-shrink: 0;
+    border-radius: 450px;
+    opacity: 0.3;
+    background: #FC1F1F;
+    filter: blur(140px);
+    position: absolute;
+    right: 260px;
+    top: -368px;
+}
